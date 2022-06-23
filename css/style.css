@@ -23,3 +23,10 @@ header{
     height: 20px;
     border: white 1px solid;
 }
+
+.style_btn{
+    background-color: #1abc9c;
+    border: 1px solid white;
+    color: white;
+    padding: 5px
+}
