@@ -30,3 +30,12 @@ header{
     color: white;
     padding: 5px
 }
+
+footer{
+    background-color: #3a546d;
+    color: white;
+}
+
+.footer_bot{
+    background-color: #2c3e50;
+}
