@@ -10,8 +10,12 @@ header{
     color: white;
 }
 
+.jumbo_width{
+    width: 200px;
+}
+
 .img_width{
-    width: 200px
+    width: 100%;
 }
 
 .box{
