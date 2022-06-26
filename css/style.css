@@ -7,6 +7,11 @@ header{
     color: white;
     height: 80px;
     line-height: 80px;
+    z-index: 99;
+}
+
+main{
+    margin-top: 80px;
 }
 
 .back_color{
@@ -47,4 +52,37 @@ footer{
 
 .color_link{
     color: #1abc9c;
+}
+
+/*hover*/
+header li:hover{
+    color: #1abc9c;
+}
+
+.layover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0 , 150 , 0 , 0.5);
+    border-radius: 5px;
+    display: none;
+}
+
+.layover i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    color: white;
+}
+
+.ms_hover:hover .layover{
+    display: block;
+}
+
+.style_btn:hover{
+    opacity: 0.7;
 }
